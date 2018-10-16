@@ -26,7 +26,7 @@ import butterknife.Unbinder;
 
 public class FavouriteFragment extends Fragment {
 
-    @BindView(R.id.fragment_collection_recyclerView)
+    @BindView(R.id.fragment_favourite_recyclerview)
     RecyclerView mRecyclerView;
     @BindView(R.id.fragment_favourite_notification)
     TextView notification;
