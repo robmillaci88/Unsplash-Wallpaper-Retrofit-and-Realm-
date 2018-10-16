@@ -52,7 +52,7 @@ public class FullScreenPhotoActivity extends AppCompatActivity {
 
     @BindDrawable(R.drawable.ic_check_favourite)
     Drawable icFavouriteChecked;
-    @BindDrawable(R.drawable.ic_favourite)
+    @BindDrawable(R.drawable.ic_check_favourite_white)
     Drawable icFavourite;
 
     private Unbinder mUnbinder;
