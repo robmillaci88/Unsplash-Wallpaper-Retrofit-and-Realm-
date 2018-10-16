@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fragment_favourite_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You dont have any favourite photos"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_favourite_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
